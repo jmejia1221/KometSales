@@ -1,0 +1,90 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gulp-ugligy',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn package.json KometSales@1.0.0 No description
+6 warn package.json KometSales@1.0.0 No repository field.
+7 warn package.json KometSales@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'gulp-ugligy', null ]
+10 verbose cache add name=undefined spec="gulp-ugligy" args=["gulp-ugligy",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'gulp-ugligy',
+11 verbose parsed url   path: 'gulp-ugligy',
+11 verbose parsed url   href: 'gulp-ugligy' }
+12 silly lockFile 5f3257e9-gulp-ugligy gulp-ugligy
+13 verbose lock gulp-ugligy /home/john/.npm/5f3257e9-gulp-ugligy.lock
+14 silly lockFile 5f3257e9-gulp-ugligy gulp-ugligy
+15 silly lockFile 5f3257e9-gulp-ugligy gulp-ugligy
+16 verbose addNamed [ 'gulp-ugligy', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile eed558c0-gulp-ugligy gulp-ugligy@
+19 verbose lock gulp-ugligy@ /home/john/.npm/eed558c0-gulp-ugligy.lock
+20 silly addNameRange { name: 'gulp-ugligy', range: '*', hasData: false }
+21 verbose request where is /gulp-ugligy
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id bdefa8ba3f2117fb
+24 verbose url raw /gulp-ugligy
+25 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-ugligy' ]
+26 verbose url resolved https://registry.npmjs.org/gulp-ugligy
+27 verbose request where is https://registry.npmjs.org/gulp-ugligy
+28 info trying registry request attempt 1 at 16:54:39
+29 http GET https://registry.npmjs.org/gulp-ugligy
+30 http 404 https://registry.npmjs.org/gulp-ugligy
+31 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'cache-control': 'max-age=0',
+31 verbose headers   'content-length': '51',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   date: 'Thu, 30 Apr 2015 21:54:44 GMT',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   age: '0',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'x-served-by': 'cache-atl6227-ATL',
+31 verbose headers   'x-cache': 'MISS',
+31 verbose headers   'x-cache-hits': '0',
+31 verbose headers   'x-timer': 'S1430430884.088517,VS0,VE32' }
+32 silly registry.get cb [ 404,
+32 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 silly registry.get     'content-type': 'application/json',
+32 silly registry.get     'cache-control': 'max-age=0',
+32 silly registry.get     'content-length': '51',
+32 silly registry.get     'accept-ranges': 'bytes',
+32 silly registry.get     date: 'Thu, 30 Apr 2015 21:54:44 GMT',
+32 silly registry.get     via: '1.1 varnish',
+32 silly registry.get     age: '0',
+32 silly registry.get     connection: 'keep-alive',
+32 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+32 silly registry.get     'x-cache': 'MISS',
+32 silly registry.get     'x-cache-hits': '0',
+32 silly registry.get     'x-timer': 'S1430430884.088517,VS0,VE32' } ]
+33 silly lockFile eed558c0-gulp-ugligy gulp-ugligy@
+34 silly lockFile eed558c0-gulp-ugligy gulp-ugligy@
+35 error 404 404 Not Found: gulp-ugligy
+35 error 404
+35 error 404 'gulp-ugligy' is not in the npm registry.
+35 error 404 You should bug the author to publish it
+35 error 404 It was specified as a dependency of 'KometSales'
+35 error 404
+35 error 404 Note that you can also install from a
+35 error 404 tarball, folder, or http url, or git url.
+36 error System Linux 3.13.0-43-generic
+37 error command "/usr/bin/node" "/usr/bin/npm" "install" "gulp-ugligy" "--save-dev"
+38 error cwd /home/john/Escritorio/KometSales
+39 error node -v v0.10.37
+40 error npm -v 1.4.28
+41 error code E404
+42 verbose exit [ 1, true ]
